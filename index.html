@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECG Monitoring in Heart Failure — Who, Why, How long</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-base-200">
+<div class="max-w-5xl mx-auto p-6 space-y-8">
+
+<header class="prose max-w-none">
+  <h1>ECG monitoring in heart failure patients</h1>
+  <p class="text-base-content/70">Synthesis of the documents in <code>Disease/Heart Failure</code> — what proportion of HF patients require ECG monitoring, which sub‑groups, what comorbidities trigger it, the clinical rationale, and duration of monitoring.</p>
+</header>
+
+<!-- KEY TAKEAWAY -->
+<div class="alert alert-warning shadow">
+  <div>
+    <h2 class="font-bold text-lg">Important framing — there is no single "% of HF patients who need ECG monitoring"</h2>
+    <p class="text-sm mt-1">Guidelines and trials in this folder don't quote one headline percentage. "ECG monitoring" covers very different modalities with very different indications. The honest answer must be split by modality:</p>
+    <ul class="list-disc list-inside text-sm mt-2">
+      <li><b>12‑lead resting ECG</b> → essentially <b>100 %</b> of HF patients (at diagnosis and at every follow‑up; annually as a minimum).</li>
+      <li><b>Ambulatory / Holter ECG</b> → all patients with suspected arrhythmia + selected sub‑groups (DCM, palpitations, syncope, AF‑screening, post‑ablation). Realistically a large minority — see breakdown below.</li>
+      <li><b>Continuous device‑based monitoring (ICD / CRT / ILR / pacemaker telemetry)</b> → ≈ HF patients with LVEF ≤ 35 %, ICD/CRT recipients, cryptogenic stroke, unexplained syncope. In the CaReMe HF cohort HF prevalence in the adult population is ~1.8–2.2 %, of whom roughly a third have HFrEF eligible for device‑based monitoring.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- SECTION 1: 12-LEAD ECG -->
+<section class="card bg-base-100 shadow">
+  <div class="card-body prose max-w-none">
+    <h2>1. 12‑lead resting ECG — every HF patient</h2>
+    <p>The 2021 ESC Heart Failure Guidelines treat the resting ECG as a baseline test for everyone with suspected or established HF, and recommend repeating it during long‑term follow‑up:</p>
+    <blockquote class="text-sm">
+      "An ECG should be done annually to detect QRS prolongation, as such patients may become candidates for CRT. Furthermore, it may identify conduction disturbances and AF."
+      <br><em>— <a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=38" target="_blank">2021 ESC HF Guidelines, page 38</a></em>
+    </blockquote>
+    <h3>Why</h3>
+    <ul>
+      <li>Detect <b>QRS prolongation / LBBB</b> → potential candidate for cardiac resynchronisation therapy (CRT).</li>
+      <li>Detect <b>conduction disturbances</b> (AV block, bundle‑branch block).</li>
+      <li>Detect new‑onset <b>atrial fibrillation</b> — present in 30–50 % of HF patients depending on cohort (29 → 41 % over time in the Mayo cohort, <a href="https://myaidrive.com/gycbaUGZk2n2SU4Y4BBVTo/NEJMoa052256.pdf?pdfPage=4" target="_blank">NEJMoa052256, p4</a>; 46 % in STRONG‑HF, <a href="https://myaidrive.com/3QJCQKLumCYd3XZTPvvryv/STRONG-HF_Me.pdf?pdfPage=5" target="_blank">STRONG‑HF p5</a>; 57 % in the Kaiser ambulatory cohort, <a href="https://myaidrive.com/YCjduUaCzmJHdHEu7Zha4M/PIIS30506611.pdf?pdfPage=3" target="_blank">PIIS3050661125000528 p3</a>).</li>
+    </ul>
+    <h3>Duration</h3>
+    <p>One‑off snapshot at every clinical contact, <b>at minimum once a year</b> in stable chronic HF.</p>
+  </div>
+</section>
+
+<!-- SECTION 2: AMBULATORY / HOLTER ECG -->
+<section class="card bg-base-100 shadow">
+  <div class="card-body prose max-w-none">
+    <h2>2. Ambulatory (Holter / patch / 7‑day) ECG</h2>
+    <p>The 2021 ESC HF Guidelines list <b>ambulatory ECG recording</b> as a recommended work‑up modality whenever the clinical question is an arrhythmia in HF:</p>
+    <blockquote class="text-sm">
+      "Arrhythmias — Atrial tachyarrhythmias, Ventricular arrhythmias → Ambulatory ECG recording; Electrophysiology study, if indicated."
+      <br><em>— <a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=18" target="_blank">2021 ESC HF Guidelines, page 18 (aetiology / work‑up table)</a></em>
+    </blockquote>
+
+    <h3>Which patients</h3>
+    <div class="overflow-x-auto">
+      <table class="table table-sm">
+        <thead><tr><th>Subgroup</th><th>Why monitor</th><th>Typical duration</th><th>Source</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>Dilated cardiomyopathy (DCM) — at diagnosis & follow‑up</td>
+            <td>Aetiology (tachy‑induced CMP), prognostic stratification (arrhythmogenic DCM), possible indication for genetic testing</td>
+            <td><b>24 h Holter</b> at diagnosis; repeat at follow‑up unless ICD/CRT‑D already implanted (device gives continuous data)</td>
+            <td><a href="https://myaidrive.com/M5TBdLjBgP4hYmCk2wGcQb/European-J-o.pdf?pdfPage=6" target="_blank">Merlo et al., DCM review, p6</a></td>
+          </tr>
+          <tr>
+            <td>Palpitations, syncope, unexplained dyspnoea</td>
+            <td>Detect symptomatic / asymptomatic arrhythmia, document VT/NSVT, AV block</td>
+            <td>24 h → 7‑day Holter / patch; escalate to <b>implantable loop recorder (ILR)</b> if non‑diagnostic and symptoms infrequent</td>
+            <td><a href="https://myaidrive.com/GUUWYn8upVc449FThjSMaN/Europace_201.pdf?pdfPage=16" target="_blank">ISHNE/EHRA consensus on CIED remote monitoring (Europace 2012)</a></td>
+          </tr>
+          <tr>
+            <td>Suspected paroxysmal AF (palpitations, cryptogenic stroke/TIA)</td>
+            <td>Detect silent / paroxysmal AF → anticoagulation decision (CHA₂DS₂‑VASc ≥2 in men, ≥3 in women)</td>
+            <td><b>7‑day ambulatory ECG</b> after stroke/TIA; longer (30‑day patch or ILR) if still negative</td>
+            <td>Jabaudon et al., cited in <a href="https://myaidrive.com/GUUWYn8upVc449FThjSMaN/Europace_201.pdf?pdfPage=16" target="_blank">Europace 2012, p16</a>; <a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=62" target="_blank">2021 ESC HF, p62</a></td>
+          </tr>
+          <tr>
+            <td>HFrEF with frequent PVCs / suspected tachycardia‑induced cardiomyopathy</td>
+            <td>Quantify PVC burden — high burden may be reversible cause of LV dysfunction; sustained reduction in PVCs lowers mortality and HF hospitalisation</td>
+            <td>24–48 h Holter, repeat after rate/rhythm therapy</td>
+            <td><a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=62" target="_blank">2021 ESC HF Guidelines, p62</a></td>
+          </tr>
+          <tr>
+            <td>Patients eligible for or after CRT</td>
+            <td>Confirm sinus rhythm vs AF, monitor biventricular pacing %, detect new‑onset AF (a strong predictor of CRT non‑response)</td>
+            <td>Continuous via CRT device counters; 24 h Holter if device not yet implanted</td>
+            <td><a href="https://myaidrive.com/D4xrXd4zvLdBos3RbkZNBC/Brachmann_Fl.pdf?pdfPage=7" target="_blank">Brachmann, OptiLink‑HF, p7</a></td>
+          </tr>
+          <tr>
+            <td>HF + Chagas, sarcoid, amyloid, ARVC / arrhythmogenic CMP</td>
+            <td>High SCD risk, conduction disease, VT screening</td>
+            <td>24 h Holter at baseline; periodically thereafter (case‑by‑case)</td>
+            <td><a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=18" target="_blank">2021 ESC HF Guidelines, p18</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>How common are the arrhythmias being looked for?</h3>
+    <ul>
+      <li><b>Atrial fibrillation</b>: 30–57 % of HF cohorts (range across trials in this folder).</li>
+      <li><b>Ventricular premature beats</b>: 76.4 % of HF rehab patients on ambulatory ECG; <b>non‑sustained VT</b> documented in a sizeable minority (<a href="https://myaidrive.com/YXxGHsXacz2stdMy23xKEU/medicina-58-.pdf?pdfPage=9" target="_blank">Maulana et al., cardiac telerehab review, p9</a>).</li>
+      <li><b>History of VT / VF</b>: ~5–9 % in ambulatory HF outpatients (<a href="https://myaidrive.com/YCjduUaCzmJHdHEu7Zha4M/PIIS30506611.pdf?pdfPage=3" target="_blank">Ambrosy et al., p3</a>).</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SECTION 3: DEVICE-BASED CONTINUOUS MONITORING -->
+<section class="card bg-base-100 shadow">
+  <div class="card-body prose max-w-none">
+    <h2>3. Continuous, life‑long ECG monitoring via implanted device (ICD / CRT‑D / ILR)</h2>
+    <p>The largest single group of HF patients on permanent ECG monitoring are those who already have a cardiovascular implantable electronic device (CIED). These devices give a continuous intracardiac electrogram and can be remotely interrogated.</p>
+
+    <h3>Who qualifies (2021 ESC HF Guidelines)</h3>
+    <ul>
+      <li><b>Primary‑prevention ICD (Class I, ischaemic HFrEF; Class IIa, non‑ischaemic DCM)</b> — symptomatic HF (NYHA II‑III), LVEF ≤ 35 % despite ≥ 3 months of OMT, expected survival > 1 year. <a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=27" target="_blank">p27</a></li>
+      <li><b>Secondary‑prevention ICD (Class I)</b> — survivors of haemodynamically unstable VT/VF. <a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=27" target="_blank">p27</a></li>
+      <li><b>CRT (Class I)</b> — symptomatic HF, sinus rhythm, QRS ≥ 150 ms, LBBB, LVEF ≤ 35 % despite OMT. <a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=29" target="_blank">p29</a></li>
+      <li><b>Implantable loop recorder (ILR)</b> — unexplained syncope, suspected paroxysmal AF after non‑diagnostic Holter, risk stratification in advanced HF or LMNA/FLNC mutations. <a href="https://myaidrive.com/3UJthKGwwQhvAbZThdwF7q/268-2021_ESC.pdf?pdfPage=39" target="_blank">2021 ESC HF, p39</a></li>
+    </ul>
+
+    <h3>Telemonitoring of these devices</h3>
+    <blockquote class="text-sm">
+      "Non‑invasive HTM may be considered for patients with HF in order to reduce the risk of recurrent CV and HF hospitalizations and CV death." (Class IIb, Level B)
+      <br><em>— <a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=39" target="_blank">2021 ESC HF Guidelines, p39</a></em>
+    </blockquote>
+    <blockquote class="text-sm">
+      "There is strong evidence that monitoring can detect device malfunction earlier than by conventional monitoring and that it may be useful for detecting arrhythmias such as AF. However, there is little evidence that device monitoring reduces admissions for HF or mortality."
+      <br><em>— <a href="https://myaidrive.com/3UJthKGwwQhvAbZThdwF7q/268-2021_ESC.pdf?pdfPage=39" target="_blank">2021 ESC HF Guidelines, p39</a></em>
+    </blockquote>
+    <p>Germany has, since December 2020, reimbursed telemonitoring (including ECG/rhythm signals) for HF patients with LVEF < 40 %, with the referring physician deciding 24/7 vs office‑hours surveillance (<a href="https://myaidrive.com/ao2sdcE2GNSPfSzjXSSsxw/EHF2-8-3613-.pdf?pdfPage=6" target="_blank">Winkler et al., TIM‑HF/TIM‑HF2, p6</a>).</p>
+
+    <h3>Duration</h3>
+    <p><b>Life‑long</b>, as long as the device remains in situ. For ILRs the battery typically lasts 3–4 years.</p>
+  </div>
+</section>
+
+<!-- SECTION 4: COMORBIDITIES THAT TRIGGER ECG MONITORING -->
+<section class="card bg-base-100 shadow">
+  <div class="card-body prose max-w-none">
+    <h2>4. Which comorbidities push an HF patient toward extended ECG monitoring?</h2>
+    <div class="overflow-x-auto">
+      <table class="table table-sm">
+        <thead><tr><th>Comorbidity</th><th>Reason</th><th>Suggested modality / duration</th></tr></thead>
+        <tbody>
+          <tr><td>Atrial fibrillation (history, suspected, post‑ablation)</td><td>Stroke prevention, rate/rhythm strategy, AF burden assessment, CRT optimisation</td><td>24 h → 7‑day Holter; ILR if intermittent. Continuous in CIED carriers. <a href="https://myaidrive.com/CtXSFm7iRYUQvVopMh9ZSd/NEJMoa230603.pdf?pdfPage=3" target="_blank">CASTLE‑HTx p3</a></td></tr>
+          <tr><td>Ischaemic heart disease / prior MI</td><td>Higher SCD risk; primary‑prevention ICD if LVEF ≤ 35 % &gt; 40 days post‑MI</td><td>12‑lead ECG + Holter at evaluation; continuous via ICD afterwards. <a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=27" target="_blank">2021 ESC HF p27</a></td></tr>
+          <tr><td>LBBB / QRS ≥ 130 ms</td><td>Candidate for CRT</td><td>Annual 12‑lead; once CRT in place, continuous device monitoring. <a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=29" target="_blank">2021 ESC HF p29</a></td></tr>
+          <tr><td>Cryptogenic stroke / TIA</td><td>Detect paroxysmal AF</td><td>7‑day Holter; ILR if negative</td></tr>
+          <tr><td>Chronic kidney disease + ICD candidate, dyskalaemia</td><td>Hypo‑/hyperkalaemia → ventricular arrhythmia; MRAs raise K⁺</td><td>Continuous via ICD; POTCAST showed K⁺ optimisation to 4.5–5.0 mmol/L cuts arrhythmia events by 24 % (HR 0.76). <a href="https://myaidrive.com/H458ukWKCiPVS96cUVT8Fh/NEJMoa250954.pdf?pdfPage=5" target="_blank">POTCAST p5</a></td></tr>
+          <tr><td>Cardiomyopathy with high SCD risk (ARVC, LMNA/FLNC, sarcoid, amyloid, Chagas)</td><td>Sustained / non‑sustained VT, conduction block</td><td>24 h Holter at baseline → ICD if criteria met. <a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf?pdfPage=83" target="_blank">2021 ESC HF p83</a></td></tr>
+          <tr><td>Severe secondary mitral regurgitation / HFrEF + valvular HF</td><td>High burden of AF (~47–49 %) and VT</td><td>Holter pre‑intervention; continuous post‑CIED. <a href="https://myaidrive.com/FRxxrUnnBnLRFz7sEnsqff/NEJMoa231432.pdf?pdfPage=5" target="_blank">RESHAPE‑HF2 p5</a></td></tr>
+          <tr><td>Recurrent HF hospitalisations</td><td>Decompensation prediction (HR variability, AF burden, thoracic impedance)</td><td>Continuous via ICD/CRT/CardioMEMS + structured remote review. <a href="https://myaidrive.com/3BztMvPxiXZeykVVMKqQ5N/euae032.pdf?pdfPage=11" target="_blank">HeartInsight, Botto et al.</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5: WHY MONITOR -->
+<section class="card bg-base-100 shadow">
+  <div class="card-body prose max-w-none">
+    <h2>5. Why HF patients need ECG monitoring — the four clinical reasons</h2>
+    <ol>
+      <li><b>Detect atrial fibrillation</b> — drives anticoagulation, rate / rhythm control and CRT optimisation. AF prevalence in HF cohorts is 30–57 %.</li>
+      <li><b>Detect ventricular arrhythmias / SCD risk</b> — non‑sustained VT, frequent PVCs and sustained VT identify candidates for ICD, antiarrhythmic therapy and electrolyte optimisation (POTCAST showed K⁺ 4.5–5.0 mmol/L reduces the composite of sustained VT, appropriate ICD therapy, arrhythmia/HF admission, or death — HR 0.76; ARR 7.7 pp at 5 years, NNT 12.3).</li>
+      <li><b>Detect conduction disease / wide QRS</b> — to identify CRT candidates and avoid harmful RV pacing.</li>
+      <li><b>Detect early decompensation</b> — CIED‑derived parameters (HR variability, AF burden, thoracic impedance, respiration) predict worsening HF days to weeks before symptoms (intrathoracic impedance gives an average <b>~13–15 days</b> early warning before HF hospitalisation, <a href="https://myaidrive.com/QAFU2EGFPF2FtqukmjD7e5/yu-et-al-200.pdf?pdfPage=7" target="_blank">Yu et al., Circulation 2005, p7</a>).</li>
+    </ol>
+  </div>
+</section>
+
+<!-- SECTION 6: DURATION SUMMARY -->
+<section class="card bg-primary text-primary-content shadow">
+  <div class="card-body prose max-w-none prose-invert">
+    <h2>6. Bottom line — how long should ECG monitoring last?</h2>
+    <ul>
+      <li><b>12‑lead resting ECG</b>: at every clinical visit, minimum once a year, life‑long.</li>
+      <li><b>24‑h Holter</b>: at diagnosis of DCM, on symptomatic palpitations, suspected tachycardia‑induced CMP, before ICD/CRT decision.</li>
+      <li><b>7‑day ambulatory / patch ECG</b>: cryptogenic stroke, suspected paroxysmal AF, palpitations with non‑diagnostic 24‑h Holter.</li>
+      <li><b>30‑day patch / mobile telemetry</b>: persistent suspicion of arrhythmia after shorter monitoring is negative.</li>
+      <li><b>Implantable loop recorder (3–4 years)</b>: unexplained syncope, infrequent symptoms, post‑cryptogenic stroke with negative non‑invasive work‑up.</li>
+      <li><b>Continuous ICD / CRT / pacemaker monitoring</b>: <b>life‑long</b>, with remote follow‑up — applies to essentially every HFrEF patient meeting LVEF ≤ 35 % criteria.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SOURCES -->
+<section class="card bg-base-100 shadow">
+  <div class="card-body prose max-w-none">
+    <h2>Primary sources consulted (folder: <code>Disease/Heart Failure</code>)</h2>
+    <ul class="text-sm">
+      <li><a href="https://myaidrive.com/3NC8PC2QBdhuZSFBQ7pitw/2021_ESC_Hea.pdf" target="_blank">2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure</a> — McDonagh et al., Eur Heart J 2021.</li>
+      <li><a href="https://myaidrive.com/3UJthKGwwQhvAbZThdwF7q/268-2021_ESC.pdf" target="_blank">2021 ESC HF Guidelines (annotated copy)</a>.</li>
+      <li><a href="https://myaidrive.com/GUUWYn8upVc449FThjSMaN/Europace_201.pdf" target="_blank">ISHNE/EHRA expert consensus on remote monitoring of CIEDs</a> — Dubner et al., Europace 2012.</li>
+      <li><a href="https://myaidrive.com/M5TBdLjBgP4hYmCk2wGcQb/European-J-o.pdf" target="_blank">Evolving concepts in dilated cardiomyopathy</a> — Merlo et al., Eur J Heart Fail 2017.</li>
+      <li><a href="https://myaidrive.com/H458ukWKCiPVS96cUVT8Fh/NEJMoa250954.pdf" target="_blank">Potassium for High Risk of Ventricular Arrhythmias (POTCAST)</a> — Jøns et al., NEJM.</li>
+      <li><a href="https://myaidrive.com/QAFU2EGFPF2FtqukmjD7e5/yu-et-al-200.pdf" target="_blank">Intrathoracic Impedance Monitoring</a> — Yu et al., Circulation 2005.</li>
+      <li><a href="https://myaidrive.com/D4xrXd4zvLdBos3RbkZNBC/Brachmann_Fl.pdf" target="_blank">OptiLink HF / fluid status monitoring</a> — Brachmann et al.</li>
+      <li><a href="https://myaidrive.com/ao2sdcE2GNSPfSzjXSSsxw/EHF2-8-3613-.pdf" target="_blank">TIM‑HF / TIM‑HF2 24/7 telemedical service</a> — Winkler et al., ESC Heart Fail 2021.</li>
+      <li><a href="https://myaidrive.com/MQRYxqULGuHFqBrJ37PiHo/European-J-o.pdf" target="_blank">Upcoming technologies in remote monitoring of HF</a> — Bekfani et al., Eur J Heart Fail 2021.</li>
+      <li><a href="https://myaidrive.com/3BztMvPxiXZeykVVMKqQ5N/euae032.pdf" target="_blank">HeartInsight multi‑sensor ICD algorithm</a> — Botto et al., Europace 2024.</li>
+      <li><a href="https://myaidrive.com/gycbaUGZk2n2SU4Y4BBVTo/NEJMoa052256.pdf" target="_blank">Secular trends in HF and comorbidities</a> — NEJMoa052256.</li>
+      <li><a href="https://myaidrive.com/3QJCQKLumCYd3XZTPvvryv/STRONG-HF_Me.pdf" target="_blank">STRONG‑HF</a> — Mebazaa et al., Lancet.</li>
+      <li><a href="https://myaidrive.com/YCjduUaCzmJHdHEu7Zha4M/PIIS30506611.pdf" target="_blank">Quality of Life after Ambulatory HF Visit</a> — Ambrosy et al.</li>
+      <li><a href="https://myaidrive.com/FRxxrUnnBnLRFz7sEnsqff/NEJMoa231432.pdf" target="_blank">RESHAPE‑HF2</a> — Anker et al., NEJM.</li>
+      <li><a href="https://myaidrive.com/CtXSFm7iRYUQvVopMh9ZSd/NEJMoa230603.pdf" target="_blank">CASTLE‑HTx (AF ablation in end‑stage HF)</a> — Sohns et al., NEJM.</li>
+      <li><a href="https://myaidrive.com/YXxGHsXacz2stdMy23xKEU/medicina-58-.pdf" target="_blank">Cardiac telerehabilitation review</a> — Maulana et al., Medicina 2022.</li>
+      <li><a href="https://myaidrive.com/3w2EZxBs5MVtsp5UzmQRGb/548.full.pdf" target="_blank">CaReMe HF</a> — Norhammar et al.</li>
+    </ul>
+    <p class="text-xs text-base-content/60 mt-4">Generated from semantic search across 624 indexed documents in the folder. Where a single headline percentage was not available in source documents, this is stated explicitly.</p>
+  </div>
+</section>
+
+</div>
+</body>
+</html>
